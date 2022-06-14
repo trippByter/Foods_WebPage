@@ -1,5 +1,23 @@
 /*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+              N A V B A R
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+
+document.querySelector(".menu").addEventListener
+("click", () => {
+    document.querySelectorAll(".target").forEach((item) => {
+        // Add class "change" once click
+        item.classList.toggle("change");
+        
+    })
+});
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
+            E N D  N A V B A R
+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
+
+/*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*
           S E C T I O N   0 1
+           S L I D E S H O W
         C H A N G E   I C O N S
 *+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*+*/
 
